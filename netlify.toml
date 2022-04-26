@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && cp maintenance.html .next/maintenance.html && cp _redirects .next/_redirects"
   publish = ".next"
 
 [[plugins]]
